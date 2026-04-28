@@ -1,0 +1,14 @@
+# 数据采集（data_request.py）
+requests>=2.31
+lxml>=5.1
+urllib3>=2.0
+
+# 向量库构建（build_vector_db.py）
+chromadb>=0.5.0
+sentence-transformers>=2.7.0
+tqdm>=4.66
+numpy>=1.26
+
+# 可选：使用 OpenAI 兼容 Embedding API 时需要
+# 通过环境变量切换 EMBEDDING_BACKEND=openai
+openai>=1.30

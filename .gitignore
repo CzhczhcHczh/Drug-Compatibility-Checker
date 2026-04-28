@@ -6,3 +6,10 @@ node_modules/
 .DS_Store
 .swc
 *.local
+
+# Python / 数据采集与向量库
+__pycache__/
+*.pyc
+.venv/
+data/chroma_db/
+data/seen_urls.txt
